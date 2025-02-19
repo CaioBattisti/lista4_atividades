@@ -5,5 +5,18 @@
 Direcao =input("Qual direção deseja seguir? Cima ou Baixo? ").strip().lower()
 if Direcao == "c":
      num1 =int(input("digite um numero maior que 1: "))
-for numeros in enumerate (num1):
-    print(num1)
+     if num1 > 1:
+          for i in range(1,num1 + 1):
+               print(i)
+     else:
+          print("Numero invalido!")
+
+elif Direcao == "b":
+     num1=int(input("digite um numero maior que 20: "))
+     if num1 < 20:
+          for i in range(20,num1 -1, -1):
+               print(i)
+     else:
+          print("numero invalido!")
+else:
+     print("Direção invalida!")
