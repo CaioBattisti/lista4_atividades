@@ -3,6 +3,12 @@
 #Se ele inserir um número 10 ou superior, exiba a mensagem "Muitas pessoas".
 pessoas =int(input("Quantas pessoas deseja convidar? "))
 if pessoas < 10:
-    nomes = input("digite um nome: ")
-for _ in range(pessoas):
-    print(nomes)
+    nomes =[]
+    for i in range(pessoas):
+        nome = input(f"digite o nome da {i+1}° pessoa: ")
+        nomes.append(nome)
+    print("\nlista de convidados: ")
+    for nome in nomes:
+        print(nome)
+else:
+    print("muitas pessoas para convidar!")
