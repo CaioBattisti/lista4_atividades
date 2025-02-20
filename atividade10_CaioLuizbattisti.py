@@ -8,7 +8,9 @@ if pessoas < 10:
         nome = input(f"digite o nome da {i+1}° pessoa: ")
         nomes.append(nome)
     print("\nlista de convidados: ")
+    print("CaioLuiBatisti")
     for nome in nomes:
         print(nome)
 else:
     print("muitas pessoas para convidar!")
+    print("CaioLuiBatisti")

@@ -10,3 +10,6 @@
 #3.Permita que a cliente escolha um horário para agendamento.
 #4.Atualize a agenda marcando o horário escolhido como ocupado.
 #5.Pergunte se deseja agendar mais um horário e continue até que todos os horários estejam preenchidos ou a dona do salão decida parar.
+horarios =str(input("Digite os horarios disponiveis: "))
+print(horarios)
+cliente =input("Digite o horario desejado: ")

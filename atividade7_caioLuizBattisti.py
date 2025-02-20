@@ -5,6 +5,8 @@ num1 =int(input("digite um numero menor que 10: "))
 if num1 < 10:
     for _ in range(num1):
         print(nome)
+        print("CaioLuiBatisti")
 else:
       for _ in range(3):
         print("Numero muito Alto!")
+        print("CaioLuiBatisti")
